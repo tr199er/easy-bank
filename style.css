@@ -13,3 +13,27 @@ html {
 body {
   font-family: "Public Sans", sans-serif;
 }
+
+/****** NAVBAR ******/
+#desktop-nav {
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+.menu-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.menu-links li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.menu-links li a:hover {
+  color: black;
+  border-bottom: 2px #3ebca0 solid;
+}
