@@ -35,5 +35,6 @@ body {
 
 .menu-links li a:hover {
   color: black;
-  border-bottom: 2px #3ebca0 solid;
+  text-decoration: solid underline #3ebca0 0.2rem;
+  transition: all 0.5s;
 }
