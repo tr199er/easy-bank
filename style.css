@@ -37,4 +37,5 @@ body {
   color: black;
   text-decoration: solid underline #3ebca0 0.2rem;
   transition: all 0.5s;
+  text-underline-offset: 2rem;
 }
