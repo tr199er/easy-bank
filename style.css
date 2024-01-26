@@ -117,10 +117,44 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .img-container img {
-  transform:translateX(4rem) translateY(1rem);
+  transform: translateX(4rem) translateY(1rem);
   width: 700px;
+}
 
+/* ****** FEATURES SECTION ****** */
+#features {
+  padding: 2rem 9rem;
+  background: #f4f5f7;
+  display: flex;
+  flex-direction: column;
+}
+
+.features-text-container {
+  margin-top: 1.1rem;
+  margin-bottom: 4rem;
+}
+
+.features-text-container h2 {
+  font-size: 2.7rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.features-text-container p {
+  font-size: 1.3rem;
+  margin-right: 40%;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.features-card-container {
+  display: block;
+  margin-bottom: 4rem;
+}
+.cards-container {
+  display: flex;
+}
+.card{
+  flex: 1;
 }
