@@ -51,6 +51,9 @@ header {
   text-decoration: none;
   color: gray;
 }
+.link a:hover {
+ color: black;
+}
 .link a::before {
   content: "";
   position: absolute;
@@ -155,20 +158,69 @@ header {
 .cards-container {
   display: flex;
 }
-.card{
+.card {
   flex: 1;
   padding-left: 1.5rem;
 }
-.card img{
+.card img {
   margin-bottom: 1.5rem;
 }
-.card-text h3{
+.card-text h3 {
   font-weight: 400;
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
 }
-.card-text p{
+.card-text p {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+/********* ARTICLE SECTION *********/
+#article {
+  padding: 2rem 9rem;
+  background: #fafafa;
+}
+.article-header {
+  font-weight: 300;
+  font-size: 1.9rem;
+  letter-spacing: 1.5px;
+  margin: 2rem 0;
+}
+.article-c {
+  gap: 1rem;
+  justify-content: space-between;
+}
+.cards {
+  flex: 1;
+  background: white;
+}
+
+.article-img {
+  width: 19em;
+  height: 13rem;
+}
+.article-text {
+  padding: 1.5rem;
+}
+.article-author {
+  font-weight: 300;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.article-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.article-text a:hover{
+  color: #5abfcd;
+}
+.p1{
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-weight: 300;
 }
