@@ -1,0 +1,41 @@
+@media screen and (max-width: 1130px) {
+  header {
+    padding: 2rem 6rem;
+  }
+  #intro-page {
+    padding: 0 0 2rem 6rem;
+  }
+  #features {
+    padding: 2rem 6rem;
+  }
+  #article {
+    padding: 2rem 6rem;
+  }
+  footer {
+    padding: 2rem 6rem;
+  }
+  .text-container {
+     height: 78vh;
+   }
+  .text-container h1 {
+    font-size: 3rem;
+  }
+  .text-container p {
+    font-size: 1.1rem;
+  }
+  .img-container {
+    max-width: 53%;
+    height: 78vh;
+  }
+  .img-container img {
+     width: 550px;
+   }
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 365px) {
+}

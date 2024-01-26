@@ -235,7 +235,7 @@ footer {
   background: #2d314e;
   padding: 2rem 9rem;
   display: flex;
-  height: 25vh;
+  /* height: 25vh; */
   justify-content: space-between;
 }
 
