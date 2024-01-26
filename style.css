@@ -256,6 +256,7 @@ footer {
 }
 svg:hover {
   fill: url(#myGradient);
+  transition: all 0.4s ease-in-out;
 }
 
 .f2 {
@@ -277,12 +278,14 @@ svg:hover {
   background: linear-gradient(to right, #5cd590, #5abfcd);
   background-clip: text;
   color: transparent;
+  transition: all 0.6s ease-in-out;
 }
 
 .f3{
   display: flex;
   flex-direction: column;
   gap: 4rem;
+ align-items: end;
 }
 
 .f3 p{
