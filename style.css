@@ -52,7 +52,7 @@ header {
   color: gray;
 }
 .link a:hover {
- color: black;
+  color: black;
 }
 .link a::before {
   content: "";
@@ -167,12 +167,12 @@ header {
 }
 .card-text h3 {
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 .card-text p {
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 0.85rem;
   line-height: 1.5rem;
 }
 
@@ -189,39 +189,92 @@ header {
 }
 .article-c {
   gap: 1rem;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 .cards {
   flex: 1;
   background: white;
+  width: 180px;
 }
 
 .article-img {
-  width: 17em;
-  height: 12rem;
+  max-width: 100%;
+  height: auto;
 }
 .article-text {
   padding: 1.5rem;
 }
 .article-author {
   font-weight: 300;
-  font-size: 0.8rem;
-  margin-bottom: 2rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+  color: gray;
 }
 
 .article-text a {
   text-decoration: none;
   color: black;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 500;
   line-height: 1rem;
 }
-.article-text a:hover{
+.article-text a:hover {
   color: #5abfcd;
 }
-.p1{
-  margin-top: 2rem;
-  font-size: 0.9rem;
+.p1 {
+  margin-top: 1rem;
+  font-size: 0.7rem;
   line-height: 1.3rem;
   font-weight: 300;
+  color: gray;
+}
+
+/********* FOOTER *********/
+footer {
+  background: #2d314e;
+  padding: 2rem 9rem;
+  display: flex;
+  height: 25vh;
+  justify-content: space-between;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.f1 img {
+  fill: white;
+}
+
+.f-icon {
+  display: flex;
+  fill: white;
+  gap: 1rem;
+  flex-direction: row;
+}
+svg:hover {
+  fill: url(#myGradient);
+}
+
+.f2 {
+  display: flex;
+  gap: 8rem;
+}
+.fnav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.fnav-links .lnk a {
+  text-decoration: none;
+  color: white;
+}
+.fnav-links .lnk a:hover {
+  background: linear-gradient(to right, #5cd590, #5abfcd);
+  background-clip: text;
+  color: transparent;
 }
