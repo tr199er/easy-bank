@@ -14,9 +14,10 @@
   footer {
     padding: 2rem 6rem;
   }
+  /* INTRO PAGE SECTION */
   .text-container {
-     height: 78vh;
-   }
+    height: 78vh;
+  }
   .text-container h1 {
     font-size: 3rem;
   }
@@ -28,8 +29,22 @@
     height: 78vh;
   }
   .img-container img {
-     width: 550px;
-   }
+    width: 550px;
+  }
+  /* ****** FEATURES SECTION ****** */
+  .features-text-container h2 {
+    font-size: 2.5rem;
+  }
+  .features-text-container p {
+    font-size: 1.2rem;
+  }
+  .card-text h3 {
+    font-size: 1.1rem;
+  }
+  .card-text p {
+    font-size: 0.75rem;
+  }
+  /********* ARTICLE SECTION *********/
 }
 @media screen and (max-width: 900px) {
 }
