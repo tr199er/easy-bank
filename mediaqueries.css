@@ -173,12 +173,14 @@
     padding: 4rem;
     background: #fafafa;
   }
+
   .article-header {
     font-weight: 300;
     font-size: 2rem;
     letter-spacing: 1.5px;
     text-align: center;
   }
+
   .article-c {
     display: grid;
     grid-template-columns: auto auto;
@@ -240,8 +242,8 @@
 }
 
 @media screen and (max-width: 480px) {
-   /* INTRO PAGE SECTION */
-   .text-container {
+  /* INTRO PAGE SECTION */
+  .text-container {
     padding: 1rem 2rem;
   }
   .text-container h1 {
@@ -256,15 +258,50 @@
     transform: translateX(0) translateY(-7rem);
     width: 360px;
   }
-    /* ****** FEATURES SECTION ****** */
-    #features {
+  /* ****** FEATURES SECTION ****** */
+  #features {
+    padding: 2rem;
+    text-align: center;
+  }
+  .card-text p {
+    font-size: 0.9rem;
+  }
+  /********* ARTICLE SECTION *********/
+  #article {
+    padding: 2rem;
+  }
+
+  .article-header {
+  margin-bottom: 3rem;
+  }
+
+  .article-c {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+    /********* FOOTER *********/
+    footer {
       padding: 2rem;
-      text-align: center;
     }
-    .card-text p {
-      font-size: .9rem;
+    .f1 {
+      align-items: center;
+      gap: 1.5rem;
     }
-     /********* ARTICLE SECTION *********/
+    .f-logo {
+      width: 12rem;
+    }
+    .f-icon {
+      gap: 1rem;
+    }
+    svg {
+      width: 2.1rem;
+    }
+    .f2 {
+      margin-top: 2rem;
+    }
+    .f3 {
+      margin-top: 2.5rem;
+    }
 }
 @media screen and (max-width: 365px) {
 }
