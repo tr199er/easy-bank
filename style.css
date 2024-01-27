@@ -199,10 +199,8 @@ header {
 .article-c {
   gap: 1rem;
   display: flex;
-  flex-wrap: wrap;
 }
 .cards {
-  flex: 1;
   background: white;
   width: 180px;
 }
